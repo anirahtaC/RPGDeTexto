@@ -1,0 +1,156 @@
+###################<COMBATE>###################
+###################<PERGUNTAS>###################
+
+###################<CAP1>###################
+1- Qual o conceito de algoritmo?  
+[1] Uma função matemática que relaciona o expoente necessário para obter um número específico a partir de uma base. 
+[2] Uma sucessão regular dos tempos fortes e fracos em uma frase musical. 
+[3] Um conjunto de instruções ou passos sequenciais que descrevem como resolver um problema ou realizar uma tarefa. ####CORRETA####
+
+#A [1] está errada, pois é o conceito de Logaritmo e a [2] é o conceito de Ritmo Musical;
+
+2- Quais são os tipos de váriaveis do Python?
+[1] int, char, boolean, string, array, class
+[2] int, float, str, bool, list, tuple, dict, set ####CORRETA####
+
+#A [1] está errada, pois boolean, char, array e class(não é um tipo de dado em si, mas uma estrutura usada para definir objetos e suas propriedades (atributos) e comportamentos (métodos) em Python.) não fazem parte do Python.
+
+3- Qual é o erro desse código aqui: 
+
+"def soma(a, b):
+    resultado = a + b
+    return resultado
+
+resultado_soma = soma(10, 5)
+print(resultado_da_soma)"
+
+[1] NameError #CORRETA
+[2] TypeError
+[3] IndentationError
+
+#[2] Type Error é um erro quando as operaçoes são inválidas em relação aos tipos de dados envolvidos. IndentationError é um erro quando a formatação do código não segue corretamente as regras de indentação estabelecidas pela linguagem.
+
+
+#2 (Cap2) = 
+
+#1
+Quais são os operadores lógicos usados no Python? #Se acertar recupera 1 de vida
+
+[1] is, me, or
+[2] or, and, yes
+[3] or, and, not  #CORRETA
+
+#2
+Quais são as condicionais em ordem correta? #-1 de vida draconato
+
+[1] if, elif, else #CORRETA
+[2] if, else, else
+[3] elif, elif, if
+
+-> recupera um de vida em 2 se acertar duas!
+
+#3
+Esse código está correto? #Se acertar dá 2 de dano no dragao #Se errar toma 3 de dano do drag
+idade = 25
+
+if idade < 18:
+    print("Você é menor de idade.")
+else:
+    print("Você é maior de idade.")
+
+    if idade > 65:
+        print("Você é idoso.")
+
+    else:
+        print("Você não é idoso.")
+
+
+[1] Sim
+[2] Não #CORRETA
+
+#4
+"Maior, maior ou igual, menor, menor ou igual, igual, diferente" Quais são os operadores relacionais em ordem?
+
+[1] > & >= & < & <= & == & != #CORRETA
+[2] > & => & < & >= & = & !=
+[3] >> & >= & < $ <= & += & !+
+
+
+
+
+
+
+#3 (cap3) = 
+
+#1 Qual desses códigos está em python?
+a) do{
+	comando1;
+	comando2;
+} while(condicao);
+
+b) while True:
+	comando1
+	comando2
+	if condicao:
+		break
+
+[1] B #CORRETA
+[2] A
+
+#2 Termine a frase: "Contadores são sempre do tipo......:
+
+[1] binário
+[2] decimal
+[3] inteiro #CORRETA
+
+#3 Esse código está errado?
+
+contador = 0
+
+while contador < 10
+    print(contador)
+    contador += 1
+
+[1] Sim #CORRETA
+[2] Não 
+
+#4Qual comando deve ser utilizado para sair do loop infinito a baixo e continuar a execução do código? 'Homenagem ao Prof Howard pela pergunta1!!!'
+
+
+...
+
+while True:
+
+    ...
+
+...
+
+
+[1] default
+[2] break
+[3] return 0
+
+
+
+#4 (cap4) =
+
+#1 O que é vetor?
+
+[1] Caracterizam as grandezas vetoriais, que são as grandezas que precisam de orientação.
+[2] É uma variável composta homogênea unidimensional.
+
+#2 Qual o erro neste código?
+
+vet_des = [5, 3, 1, 4, 2]
+
+for i in range(len(vet_des)):
+    for j in range(i, len(vet_des) - 1):
+        if vet_des[i] > vet_des[j+1]:
+            vet_des[i], vet_des[j] = vet_des[j], vet_des[i]
+
+
+[1] Linha 3: Deveria ser 'for in range(len(vet_des)):'
+[2]' Linha 6: No 'vet_des[j]' deveria ser [j+1]
+#2 certo
+
+
